@@ -1,0 +1,48 @@
+{
+  "name": "udacity-node.js-image-processing",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Udacity Node.JS  Project Image Processing </h1>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "lint:f": "eslint src/**/*.ts --fix",
+    "jasmine": "jasmine",
+    "tests": "npm run build && npm run jasmine",
+    "start": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanKhalil24/Udacity---Project-Image-Processing"
+  },
+  "keywords": [],
+  "author": "Eman Khalil <emankhalil9688896@gmail.com> (www.linkedin.com/in/eman-khalil-alban-81770b1b7)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanKhalil24/Udacity---Project-Image-Processing/issues"
+  },
+  "homepage": "https://github.com/EmanKhalil24/Udacity---Project-Image-Processing#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^4.0.3",
+    "@types/sharp": "^0.30.4",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jasmine": "^4.2.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.1",
+    "supertest": "^6.2.3",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "sharp": "^0.30.7"
+  }
+}
